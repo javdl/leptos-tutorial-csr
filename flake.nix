@@ -17,6 +17,7 @@
           devShell = with pkgs; mkShell {
             buildInputs = [ 
               cargo
+              leptosfmt
               rustc
               wasm-pack
               llvmPackages.bintools
